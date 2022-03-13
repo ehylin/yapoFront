@@ -1,9 +1,16 @@
 <template>
-  <h2>resulktado bandas</h2>
+<SearchComponent />
 </template>
 
 <script>
+import SearchComponent from './SearchComponent.vue'
 export default {
+  components:{
+    SearchComponent
+  },
+  setup() {
+
+    },
 
 }
 </script>
