@@ -13,6 +13,7 @@
 import BansComponent from '../components/BansComponent.vue'
 
 export default {
+    name: 'BansView',
     components:{
         BansComponent,
     },

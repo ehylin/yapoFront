@@ -1,5 +1,9 @@
 <template>
-  <h2>Loading</h2>
+ <div class="d-flex justify-content-center">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
 </template>
 
 <script>

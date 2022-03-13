@@ -5,7 +5,6 @@
                 <div class="home text-center">
                     <img :src="require('../assets/imgHome.png')" width="260" class="img-fluid" alt="imagen pokemon">
                     <h1>Bienvenidos al buscador de bandas Favorito</h1>
-                    <p></p>
                     <router-view/>
                 </div>
             </div>

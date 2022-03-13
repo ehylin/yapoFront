@@ -13,22 +13,29 @@ export default createStore({
     },
   },
   actions: {
+    
+    
     async getBansFilter({ commit }, name ) {
-     
-      
+
       try {
         const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+
         const data = await res.json()
     
-        commit('setBansFilter',  data)
         console.log(data)
+
+    
+        commit('setBansFilter',  data)
+
       } catch (error) {
         console.log(error)
       }
       
-      
-    },
+  
+    }
   },
+    
+      
   modules: {
   }
 })

@@ -1,5 +1,9 @@
 <template>
+<div class="container">
+    
 <SearchComponent />
+</div>
+
 </template>
 
 <script>
