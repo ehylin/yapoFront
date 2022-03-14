@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-     <router-link to="/bandas">Bandas Musicales</router-link>
+    <router-link to="/listabandas">Bandas Musicales</router-link> 
   </nav>
   <router-view/>
 </template>
