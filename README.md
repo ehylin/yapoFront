@@ -1,5 +1,20 @@
 # yapo-front
 
+## App realizada como prueba tecnica para Yapo Chile
+
+# App Vue 3 Vuex composition Api, Listar bandas musicales 
+
+### Se necesita levantar el back antes que el front para obtener la data
+
+## Para iniciar el proyecto debe ejecutar
+
+### `npm instal`
+
+### `npm run serve`
+
+Con ❤️ por [ehylinOlezjua](https://github.com/ehylin)
+
+
 ## Project setup
 ```
 npm install
