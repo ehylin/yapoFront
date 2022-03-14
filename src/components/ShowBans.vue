@@ -3,7 +3,7 @@
     <table class="table">
   <thead>
     <tr>
-      <th scope="col">Nombre cancion</th>
+      <th scope="col">Nombre banda</th>
       <th scope="col">Nombre album</th>
       <th scope="col">Url preview</th>
       <th scope="col">Precio</th>
@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">{{bans.nombre_banda}}</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
