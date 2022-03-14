@@ -4,22 +4,21 @@
 <SearchComponent />
 <div class="mt-5">
     <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Nombre banda</th>
-      <th scope="col">Total albunes</th>
-      <th scope="col">Total canciones</th>
-      <th scope="col">Fecha de lanzamiento</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr 
-            v-for= "bands in bands" :key="bands.name">
-                <BandsList :bands="bands" />
-            
-            </tr>
-  </tbody>
-</table>
+      <thead>
+        <tr>
+          <th scope="col">Nombre banda</th>
+          <th scope="col">Total albunes</th>
+          <th scope="col">Total canciones</th>
+          <th scope="col">Fecha de lanzamiento</th>
+        </tr>
+        </thead>
+        <tbody>
+           <p class="mt-3" v-if="bands.length === 0 ">No hay datos</p>
+          <tr v-for= "bands in bands" :key="bands.name">
+              <BandsList :bands="bands" />
+          </tr>
+        </tbody>
+  </table>
 </div>
  
           
