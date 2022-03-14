@@ -5,6 +5,7 @@
 # App Vue 3 Vuex composition Api, Listar bandas musicales 
 
 ### Se necesita levantar el back antes que el front para obtener la data
+## Mensaje "no hay datos" cuando el nombre de la banda no existe o el back no ## se ha levantado.
 
 ## Para iniciar el proyecto debe ejecutar
 
