@@ -46,7 +46,7 @@ export default {
       const store = useStore();
 
       const bands = computed(() => {
-        return  store.state.bands;
+        return  store.state.bansFilter;
       });
        
          onMounted(async() =>{

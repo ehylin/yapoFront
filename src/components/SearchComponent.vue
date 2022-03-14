@@ -3,7 +3,7 @@
   <form class="d-flex">
       <input
         type="text"
-        placeholder="Search"
+        placeholder="Buscador por nombre"
         class="form-control my-2"
         v-model="search"
         @keyup="processInput"

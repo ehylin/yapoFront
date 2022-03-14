@@ -28,26 +28,16 @@ export default createStore({
         console.log(error)
       }
     },
-    
-    
-    // async getBansFilter({ commit }) {
-
-    //   try {
-    //     const res = await fetch(`http://localhost:3000/api/bandas`)
-
-    //     const data = await res.json()
-    
-    //     console.log(data)
-
-    
-    //     commit('setBansFilter',  data)
-
-    //   } catch (error) {
-    //     console.log(error)
-    //   }
-      
-  
-    // }
+    filterName({commit, state}, search){
+      const textSearch = search.toLowerCase()
+      const filtro = state.bands.filter(band => {
+      const textApi = band.nombre_banda.toLowerCase()
+      if (textApi.includes(textSearch)) {
+        return band;
+      }
+      })
+      commit('setBansFilter', filtro)
+    },
   },
     
       
